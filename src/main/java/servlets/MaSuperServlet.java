@@ -26,6 +26,7 @@ public class MaSuperServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// Coucou Etienne est passé par là.
+		System.out.println("Une modification dans etienne2");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
