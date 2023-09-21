@@ -31,6 +31,7 @@ public class MaSuperServlet extends HttpServlet {
 		System.out.println("Coucou, c'est Etienne");
 		System.out.println("Une modification sur etienne1");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
+		System.out.println("Une nouvelle modif sur etienne2");
 	}
 
 	/**
